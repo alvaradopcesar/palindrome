@@ -26,7 +26,7 @@ go mod download
 ## Running the tests
 
 ```bash
-go test ./...
+go test -v ./...
 ```
 
 ## Deployment
@@ -43,18 +43,9 @@ Enter the repository folder
 cd palindrome 
 ```
 
-Build the binary
-
-```bash
-make
-```
-
 Run the program
 
 ```bash
-# In Unix-like OS
-./app
+# In Unix-like OS or Windows
+go run main.go 
 
-# In Windows
-app.exe
-```

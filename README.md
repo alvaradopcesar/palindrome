@@ -34,13 +34,13 @@ go test ./...
 Clone the repository
 
 ```bash
-git clone git@gitlab.com:prettytechnical/oryx-backend-core.git
+git clone git@github.com:alvaradopcesar/palindrome.git
 ```
 
 Enter the repository folder
 
 ```bash
-cd oryx-backend-core
+cd palindrome 
 ```
 
 Build the binary
@@ -58,7 +58,3 @@ Run the program
 # In Windows
 app.exe
 ```
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://gitlab.com/prettytechnical/oryx-backend-core/-/tags).

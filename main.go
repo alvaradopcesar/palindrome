@@ -15,4 +15,6 @@ func main() {
 	result := duplicate.LongStringDuplicate("abcabcdbb")
 	fmt.Println(result)
 
+	fmt.Println("test")
+
 }
